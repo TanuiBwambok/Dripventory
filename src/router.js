@@ -3,7 +3,10 @@ import DashboardLayout from "./components/DashboardLayout";
 import LoginPage from "./pages/auth/Login";
 import RegisterPage from "./pages/auth/Register";
 import DashboardPage from "./pages/Dashboard";
+import AddProductspage from "./pages/products/Add_products";
 import ProductsPage from "./pages/products/Products";
+import SalesFormPage from "./pages/sale/salesform";
+import SalesTablePage from "./pages/sale/salestable";
 
 const router = createBrowserRouter([
   {
@@ -19,8 +22,17 @@ const router = createBrowserRouter([
         element: <ProductsPage />,
       },
       {
+        path: "addproducts",
+        element: <AddProductspage />,
+      },
+
+      {
         path: "sales",
-        element: <DashboardPage />,
+        element: <SalesTablePage />,
+      },
+      {
+        path: "salesform",
+        element: <SalesFormPage />,
       },
       {
         path: "deliveries",
