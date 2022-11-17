@@ -8,6 +8,8 @@ const colors = {
   bodyBg,
   primary: "#001B48",
   white: "#ffffff",
+  border: "#1A325A",
+  outlinedBg: "#D9D9D9",
 };
 
 export default colors;

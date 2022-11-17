@@ -6,6 +6,7 @@ import DefaultButton from "./Default";
 const ContainedButton = styled(DefaultButton)(() => {
   return {
     background: colors.light,
+
     "&:hover": {
       background: LightenDarkenColor(colors.light, -10),
     },

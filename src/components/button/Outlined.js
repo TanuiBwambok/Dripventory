@@ -6,7 +6,8 @@ import DefaultButton from "./Default";
 const OutlinedButton = styled(DefaultButton)(() => {
   return {
     background: colors.bodyBg,
-    border: `1.8px solid ${colors.body}`,
+
+    border: `3.0px solid ${colors.border}`,
     "&:hover": {
       background: LightenDarkenColor(colors.bodyBg, -10),
     },

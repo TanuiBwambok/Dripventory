@@ -2,11 +2,13 @@ import { createBrowserRouter } from "react-router-dom";
 import DashboardLayout from "./components/DashboardLayout";
 import LoginPage from "./pages/auth/Login";
 import RegisterPage from "./pages/auth/Register";
+import CustomersPage from "./pages/customers/Customers";
 import DashboardPage from "./pages/Dashboard";
-import AddProductspage from "./pages/products/Add_products";
+import DeliveriesPage from "./pages/deliveries/Deliveries";
+import AddProductPage from "./pages/products/AddProduct";
 import ProductsPage from "./pages/products/Products";
-import SalesFormPage from "./pages/sale/salesform";
-import SalesTablePage from "./pages/sale/salestable";
+import AddSalePage from "./pages/sale/AddSale";
+import SalesPage from "./pages/sale/Sales";
 
 const router = createBrowserRouter([
   {
@@ -22,25 +24,25 @@ const router = createBrowserRouter([
         element: <ProductsPage />,
       },
       {
-        path: "addproducts",
-        element: <AddProductspage />,
+        path: "products/add",
+        element: <AddProductPage />,
       },
 
       {
         path: "sales",
-        element: <SalesTablePage />,
+        element: <SalesPage />,
       },
       {
-        path: "salesform",
-        element: <SalesFormPage />,
+        path: "sales/add",
+        element: <AddSalePage />,
       },
       {
         path: "deliveries",
-        element: <DashboardPage />,
+        element: <DeliveriesPage />,
       },
       {
         path: "customers",
-        element: <DashboardPage />,
+        element: <CustomersPage />,
       },
     ],
   },

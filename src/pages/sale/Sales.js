@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import Box from "../../components/Box";
 import Typography from "../../components/Typography";
 
-export default function SalesTablePage() {
+export default function SalesPage() {
   return (
     <Fragment>
       <Box>

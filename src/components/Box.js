@@ -15,6 +15,21 @@ export const Grid = styled(Box)(
   })
 );
 
+export const Stack = styled(Box)(
+  /**
+   *
+   * @param {{direction:'row'|'column', spacing:number}} param0
+   * @returns
+   */
+  ({ direction, spacing }) => {
+    return {
+      display: "flex",
+      flexDirection: direction ?? "colummn",
+      gap: spacing ?? 12,
+    };
+  }
+);
+
 export const GridItem = styled(Box)`
   ${(props) => props.xs}
 `;
