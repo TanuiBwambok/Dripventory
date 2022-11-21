@@ -15,8 +15,6 @@ const classes = {
 };
 
 const styles = ({ theme }) => ({
-  // temporary right-to-left patch, waiting for
-  // https://github.com/bvaughn/react-virtualized/issues/454
   "& .ReactVirtualized__Table__headerRow": {
     ...(theme.direction === "rtl" && {
       paddingLeft: "0 !important",

@@ -6,10 +6,8 @@ import CustomersPage from "./pages/customers/Customers";
 import DashboardPage from "./pages/Dashboard";
 import DeliveriesPage from "./pages/deliveries/Deliveries";
 import AddProductPage from "./pages/products/AddProduct";
-import {
-  default as ProductsPage,
-  default as TablePage,
-} from "./pages/products/ProductTable";
+import ProductsPage from "./pages/products/Products";
+import TablePage from "./pages/products/ProductTable";
 import AddSalePage from "./pages/sale/AddSale";
 import SalesPage from "./pages/sale/Sales";
 
