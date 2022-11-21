@@ -17,7 +17,7 @@ const MainStyles = styled("div")(() => ({
   justifyContent: "end",
   alignItems: "center",
   paddingRight: pxToRem(40),
-  background: colors.white,
+  background: colors.bodyBg,
 }));
 
 const Avatar = styled("img")(() => ({

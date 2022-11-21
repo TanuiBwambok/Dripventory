@@ -22,6 +22,8 @@ export default function ProductsPage() {
           + Add Product
         </Button>
       </Box>
+
+      <Box></Box>
     </Fragment>
   );
 }

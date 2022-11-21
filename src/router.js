@@ -6,7 +6,10 @@ import CustomersPage from "./pages/customers/Customers";
 import DashboardPage from "./pages/Dashboard";
 import DeliveriesPage from "./pages/deliveries/Deliveries";
 import AddProductPage from "./pages/products/AddProduct";
-import ProductsPage from "./pages/products/Products";
+import {
+  default as ProductsPage,
+  default as TablePage,
+} from "./pages/products/ProductTable";
 import AddSalePage from "./pages/sale/AddSale";
 import SalesPage from "./pages/sale/Sales";
 
@@ -43,6 +46,11 @@ const router = createBrowserRouter([
       {
         path: "customers",
         element: <CustomersPage />,
+      },
+
+      {
+        path: "table",
+        element: <TablePage />,
       },
     ],
   },
