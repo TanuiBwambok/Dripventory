@@ -40,14 +40,10 @@ const NavContainer = styled("div")(() => ({
   flexDirection: "column",
 }));
 
-const NavLink = styled(Link, {
-  shouldForwardProp(propName) {
-    return propName !== "active";
-  },
-})(({ active }) => ({
+const NavLink = styled(Link)(({ $active }) => ({
   paddingTop: pxToRem(20),
   paddingBottom: pxToRem(20),
-  color: active ? colors.primary : colors.body,
+  color: $active ? colors.primary : colors.body,
   fontWeight: 500,
 
   textDecoration: "none",
@@ -72,7 +68,7 @@ const Sidebar = () => {
           const active = pathname.includes(conf.path);
 
           return (
-            <NavLink key={index} to={conf.path} active={active}>
+            <NavLink key={index} to={conf.path} $active={active}>
               {conf.title}
             </NavLink>
           );

@@ -44,7 +44,6 @@ const DashboardPage = () => {
         <Stack spacing={13} style={{ display: "flex", flexDirection: "row" }}>
           <DashboardButton variant="outlined">Deliveries</DashboardButton>
           <DashboardButton variant="outlined">Customers</DashboardButton>
-          <DashboardButton variant="outlined">TablePage</DashboardButton>
         </Stack>
       </Box>
     </Fragment>

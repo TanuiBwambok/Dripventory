@@ -5,6 +5,8 @@ const sidebarConfig = [
   { path: "/deliveries", title: "Deliveries" },
   { path: "/customers", title: "Customers" },
   { path: "/table", title: "Table" },
+  { path: "auth/login", title: "Login" },
+  { path: "auth/signup", title: "Signup" },
 ];
 
 export default sidebarConfig;
