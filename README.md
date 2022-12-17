@@ -1,4 +1,10 @@
+GROUP MEMBERS
+Arthur manyonge      SCCJ/01435/2019
+Dominic Kiptanui     SCCJ/01104/2018
+Kenneth Mukabi       SCCJ/01446/2019
+
 # Getting Started with Create React App
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
